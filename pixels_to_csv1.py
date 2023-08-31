@@ -8,6 +8,11 @@ from PIL import Image
 import pandas as pd
 
 def rgb_of_pixel(folder_path, files):
+    '''
+    Takes an image and a rgb value and outputs pixel values where 
+    the image has that color.
+    '''
+    
     for img_path in files:
         actualPath = str(folder_path) + str(img_path)
         print(actualPath)

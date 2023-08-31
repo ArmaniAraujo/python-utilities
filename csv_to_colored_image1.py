@@ -17,6 +17,11 @@ def getCoordinates(csv_path):
     return x,y
 
 def colorImage(x,y, clean_image, altered_image):
+    '''
+        Takes a csv file with pixel coordinates and changes
+        the pixels of new image to specified color 
+    '''
+
     image = Image.open(clean_image)
 
     for i in range(len(x)):
