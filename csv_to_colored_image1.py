@@ -31,8 +31,8 @@ def colorImage(x,y, clean_image, altered_image):
     image.save(altered_image)
     image.close()
 
-folder_path = './images/MY_30/'
-image_name = '160.2'
+folder_path = './images/MY_35/'
+image_name = '172.1'
 clean_image = folder_path + image_name + '.png'
 altered_image = folder_path + image_name + '_alt.png'
 csv_path = folder_path + 'colored_pixels.csv'
