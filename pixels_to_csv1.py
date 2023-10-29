@@ -54,6 +54,6 @@ def find_png_filenames( path_to_dir, suffix=".png" ):
     filenames = os.listdir(path_to_dir)
     return [ filename for filename in filenames if filename.endswith( suffix ) ]
 
-folderPath = './images/MY_30/'
+folderPath = './images/MY_35/'
 pngFileList = find_png_filenames(folderPath)
 print(rgb_of_pixel(folderPath, pngFileList))
